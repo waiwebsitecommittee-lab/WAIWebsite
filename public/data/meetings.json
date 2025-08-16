@@ -1,16 +1,17 @@
 {
     "meetings": [
   {
-    "name": "Sunlight of the Spirit",
+      "name": "Sunlight of the Spirit",
       "slug": "Sunlight-of-the-Spirit-Sun",
       "time": "7:00 AM",
-    "day": "0",
-    "location": "Phone",
-    "address": "",
-    "latitude": 41.878,
-    "longitude": -93.097,
-    "types": ["O", "D"],
-    "region": "",
+      "day": 2,
+      "timezone": "America/New_York",
+      "location": "Phone",
+      "address": "",
+      "latitude": 41.878,
+      "longitude": -93.097,
+      "types": ["O", "D"],
+      "region": "Williamsburg",
 
   }
     ]
