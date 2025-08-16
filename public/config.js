@@ -9,3 +9,4 @@ export default {
 	attribution: '&copy; OpenStreetMap contributors'
     },
 };
+
