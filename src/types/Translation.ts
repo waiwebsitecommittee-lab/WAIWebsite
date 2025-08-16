@@ -1,0 +1,84 @@
+export interface Translation {
+  add_to_calendar: string;
+  address: string;
+  appointment: string;
+  back_to_meetings: string;
+  collapse: string;
+  contact_email: string;
+  contact_text: string;
+  contribute_with: string;
+  days: {
+    friday: string;
+    monday: string;
+    saturday: string;
+    sunday: string;
+    thursday: string;
+    tuesday: string;
+    wednesday: string;
+  };
+  distance: string;
+  distance_any: string;
+  distance_km: string;
+  distance_mi: string;
+  email_edit_url: string;
+  email_public_url: string;
+  email_subject: string;
+  errors: {
+    geocoding: string;
+    geolocation: string;
+  };
+  evening: string;
+  expand: string;
+  feedback: string;
+  get_directions: string;
+  in_progress_single: string;
+  in_progress_multiple: string;
+  km: string;
+  location: string;
+  location_group: string;
+  match_single: string;
+  match_multiple: string;
+  meeting_information: string;
+  meetings: string;
+  mi: string;
+  midday: string;
+  morning: string;
+  name: string;
+  no_results: string;
+  not_found: string;
+  modes: {
+    location: string;
+    me: string;
+    search: string;
+  };
+  night: string;
+  phone: string;
+  provided_by: string;
+  region: string;
+  region_any: string;
+  remove: string;
+  seventh_tradition: string;
+  share: string;
+  time: string;
+  time_any: string;
+  title: {
+    weekday: string;
+    time: string;
+    type: string;
+    meetings: string;
+    region: string;
+    search_with: string;
+    search_near: string;
+    distance: string;
+  };
+  type_any: string;
+  type_descriptions: Record<string, string>;
+  types: Record<string, string>;
+  unnamed_meeting: string;
+  updated: string;
+  views: {
+    table: string;
+    map: string;
+  };
+  weekday_any: string;
+}
